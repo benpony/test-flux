@@ -15,8 +15,9 @@ spec:
     path: app
   values:
     env:
-      AA: BLABLA
-      BB: aaa
+      AA: TEST_AA
+      BB: TEST_BB
+      CC: TEST_CC
       DEMO: not_working
     image:
       repository: avielb/test-flux
