@@ -15,8 +15,9 @@ spec:
     path: app
   values:
     env:
-      AA: BLABLA
-      BB: GGG
+      AA: TEST_AA
+      BB: TEST_BB
+      CC: TEST_CC
     image:
       repository: avielb/test-flux
       tag: master-8211
